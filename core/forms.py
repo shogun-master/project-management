@@ -11,6 +11,8 @@ class LoginForm(forms.Form):
     email = forms.CharField(label="Email")
     password = forms.CharField(widget=forms.PasswordInput)
 
+
+#working 
 class TaskForm(forms.ModelForm):
     class Meta:
         model = Task
